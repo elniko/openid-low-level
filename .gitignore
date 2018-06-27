@@ -1,0 +1,11 @@
+/.idea
+/.bpmn
+/.settings
+/.apt_generated
+/.externalToolBuilders
+/target
+.classpath
+.project
+.springBeans
+*.iml
+~*.xls*
