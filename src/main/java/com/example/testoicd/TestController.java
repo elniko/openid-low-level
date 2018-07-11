@@ -37,10 +37,10 @@ import java.util.*;
 public class TestController {
 
     private static final String OPENID_SERVER_BASE_URL = "https://localhost:9443";
-    private static final String LOCAL_SERVER_BASE_URL = "https://localhost:443";
+    private static final String LOCAL_SERVER_BASE_URL = "https://localhost:8081";
 
-    private static final String CLIENT_KEY = "gyuFrg_YI4gyqda32ChmYvUeOfoa";
-    private static final String CLIENT_SECRET = "uqJa5tNPdj3SObfhVowCkNvvuV8a";
+    private static final String CLIENT_KEY = "9ThSY82u8gIVmPlVJ075tL1J0fka";
+    private static final String CLIENT_SECRET = "1otE7VkXQcANC_GZ1vFMFpMqqlYa";
 
     @RequestMapping( value = "/start", method = RequestMethod.GET, produces = MediaType.TEXT_PLAIN_VALUE )
     public void start( HttpServletResponse response ) {
